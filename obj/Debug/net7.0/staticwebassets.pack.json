@@ -13,6 +13,42 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\desafiante_index.png",
+      "PackagePath": "staticwebassets\\imagenes\\desafiante_index.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\divertido_index.png",
+      "PackagePath": "staticwebassets\\imagenes\\divertido_index.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\dolor_habitacion1.png",
+      "PackagePath": "staticwebassets\\imagenes\\dolor_habitacion1.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\escape_tutorial.png",
+      "PackagePath": "staticwebassets\\imagenes\\escape_tutorial.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\homero_creditos.png",
+      "PackagePath": "staticwebassets\\imagenes\\homero_creditos.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\logo_2.0.png",
+      "PackagePath": "staticwebassets\\imagenes\\logo_2.0.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\misterioso_index.png",
+      "PackagePath": "staticwebassets\\imagenes\\misterioso_index.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\telefono_habitacion2.png",
+      "PackagePath": "staticwebassets\\imagenes\\telefono_habitacion2.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\usb_habitacion3.png",
+      "PackagePath": "staticwebassets\\imagenes\\usb_habitacion3.png"
+    },
+    {
       "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

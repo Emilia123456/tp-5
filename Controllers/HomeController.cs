@@ -18,10 +18,34 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult tutorial()
     {
         return View();
     }
+
+    public IActionResult creditos()
+    {
+        return View();
+    }
+
+    public IActionResult habitacion1()
+    {
+        return View();
+    }
+
+    public IActionResult habitacion2()
+    {
+        return View();
+    }
+
+
+    public IActionResult habitacion3()
+    {
+        return View();
+    }
+
+
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
