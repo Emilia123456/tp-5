@@ -21,3 +21,31 @@ body {
   margin-bottom: 60px;
 }
 
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+
+}
+.img-hor{
+  text-align: center;
+  
+}
+
+.p-hor{
+  display: flex;
+  flex-direction: row;
+}
+
+.p-hor p, .img-hor img{
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a{
+  margin-top: 10px;
+}
