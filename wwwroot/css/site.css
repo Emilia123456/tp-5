@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 html {
   font-size: 14px;
 }
@@ -5,6 +10,7 @@ html {
 @media (min-width: 768px) {
   html {
     font-size: 16px;
+   
   }
 }
 
@@ -34,8 +40,8 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2%;
-  margin-bottom: 350px;
+  padding: 3%;
+  
 
 }
 .img-hor{
@@ -55,8 +61,55 @@ footer{
   margin-bottom: 10px;
 }
 
-.submit{
-  margin-top: 50px;
+.submit, .enviar{
+  border-radius: 10px;
   background-color: #9BA4B5;
   text-align: center;
+}
+
+.submit{
+  margin-top: 50px;
+}
+
+.submit:hover{
+  border-radius: 20px;
+  
+}
+
+button{
+  border: none;
+}
+
+.opciones{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.contenedor img{
+  margin-top: 30px;
+}
+
+.enviar{
+  margin-top: 2px;
+}
+
+.index{
+  margin-bottom: 300px;
+}
+
+.tamaño-pagina{
+  margin-bottom: 340px;
+}
+
+
+p, a, li{
+  font-size: 20px;
+  font-family: 'Antic', sans-serif;
+  color: #0f192c;
+}
+
+h1, h2, a, button{
+  font-family: 'Quantico', sans-serif;
+  color: #394867;
 }

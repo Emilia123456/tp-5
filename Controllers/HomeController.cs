@@ -43,8 +43,15 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult habitacion4()
+    {
+        return View();
+    }
 
-
+    public IActionResult incorrecto()
+    {
+        return View();
+    }
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

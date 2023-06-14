@@ -3,7 +3,7 @@
 }
 
 <body>
-
+    <section class="tamaño-pagina">
     <!-- titulo -->
     <div class="text-center">
         <h1 class="display-4">Primera sala</h1>
@@ -11,14 +11,32 @@
     </div>
 
     <!-- imagenes descriptivas -->
-    <div class="text-center">
+    
+    <div class="contenedor">
         
         <p>
             Es re temprano y entrás a la escuela re cansado. La primera clase es de TI y, para tu sorpresa, zafa y hasta podés decir "presente". Pero te cae la ficha de que vas a estar hasta las 5:30 de la tarde y te toca una clase de Historia Judía en el segundo bloque, que te da un re embole y te dan ganas de rajar de ahí lo antes posible. Ahí decidís poner en marcha tu plan de escape.
             Cuando te cruzás con el profesor, le tirás:
+
+            Opciones:
         </p>
+        
+    </div>
+    <div class="opciones">
+        <ul>
+            <li>Tengo que ir al BAÑO</li>
+            <li>Tengo que ir a cargar AGUA</li>
+            <li>Me DUELE la panza</li>
+        </ul>
+    </div>
+    <div class="contenedor">
+         <form method="post" action="incorrecto.cshtml" >
+            <p> Respuesta: </p>
+            <input type="text" name="respuesta"> 
+            <button type="submit" class="enviar"> ENVIAR </button>
+        </form>
         <img src="/imagenes/dolor_habitacion1.png">
     </div>
-    
+    </section>
 </body>
 
