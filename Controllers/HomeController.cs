@@ -37,15 +37,13 @@ public IActionResult comenzar()
    [HttpPost] public IActionResult habitacion(int codigoSala, string respuesta)
     {
         bool correcto = Escape.ResolverSala(respuesta, codigoSala);
-        return View("habitacion" + Escape.GetEstadoJuego());
+        if (correcto==true){
+            return View("habitacion" + Escape.GetEstadoJuego());
+        }
+        else{
+            return View("incorrecto");
+        }
     }
-
-
-    public IActionResult incorrecto()
-    {
-        return View();
-    }
-
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
