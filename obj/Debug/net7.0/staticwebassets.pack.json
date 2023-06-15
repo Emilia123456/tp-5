@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\alfajor_habitacion6.png",
+      "PackagePath": "staticwebassets\\imagenes\\alfajor_habitacion6.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\casa_habitacion8.png",
+      "PackagePath": "staticwebassets\\imagenes\\casa_habitacion8.png"
+    },
+    {
       "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\desafiante_index.png",
       "PackagePath": "staticwebassets\\imagenes\\desafiante_index.png"
     },
@@ -37,8 +45,20 @@
       "PackagePath": "staticwebassets\\imagenes\\logo_2.0.png"
     },
     {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\mensaje_habitacion4.png",
+      "PackagePath": "staticwebassets\\imagenes\\mensaje_habitacion4.png"
+    },
+    {
       "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\misterioso_index.png",
       "PackagePath": "staticwebassets\\imagenes\\misterioso_index.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\plata_habitacion7.png",
+      "PackagePath": "staticwebassets\\imagenes\\plata_habitacion7.png"
+    },
+    {
+      "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\stop_habitacion5.png",
+      "PackagePath": "staticwebassets\\imagenes\\stop_habitacion5.png"
     },
     {
       "Id": "C:\\Users\\47697893\\Documents\\tp-5\\wwwroot\\imagenes\\telefono_habitacion2.png",

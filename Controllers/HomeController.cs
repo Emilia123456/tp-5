@@ -48,10 +48,31 @@ public class HomeController : Controller
         return View();
     }
 
+     public IActionResult habitacion5()
+    {
+        return View();
+    }
+
+     public IActionResult habitacion6()
+    {
+        return View();
+    }
+    public IActionResult habitacion7()
+    {
+        return View();
+    }
+
+     public IActionResult habitacion8()
+    {
+        return View();
+    }
+
+
     public IActionResult incorrecto()
     {
         return View();
     }
+
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -6,13 +6,14 @@ public static class Escape{
 
 
     private static void InicializarJuego(string[] respuestaC){
-        respuestaC[0]="Dolor de panza";
-        respuestaC[1]="me duele la panza";
-        respuestaC[2]="si";
-        respuestaC[3]="si";
-        respuestaC[4]="Me duele la panza, tengo el permiso de la coordinadora";
-        respuestaC[5]="se me bajó la presión, me mandaron a comprarme un guaymallen";
+        respuestaC[0]="DUELE";
+        respuestaC[1]="DUELE";
+        respuestaC[2]="SI";
+        respuestaC[3]="SI";
+        respuestaC[4]="DUELE";
+        respuestaC[5]="PRESION";
         respuestaC[6]="430";
+        respuestaC[6]="SIN";
     }
 
 
