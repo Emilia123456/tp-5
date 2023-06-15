@@ -36,11 +36,16 @@ public IActionResult comenzar()
 
    [HttpPost] public IActionResult habitacion(int codigoSala, string respuesta)
     {
+        
         bool correcto = Escape.ResolverSala(respuesta, codigoSala);
+        if(Escape.sancion>3){
+            return View("victoria");
+        }
         if (correcto==true){
             return View("habitacion" + Escape.GetEstadoJuego());
         }
         else{
+            Escape.sancion = Escape.sumarSancion();
             return View("incorrecto");
         }
     }
