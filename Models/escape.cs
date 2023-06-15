@@ -1,36 +1,37 @@
 public static class Escape{
-    static string[] incognitasSalas(){
-        string[] respuestaC = new string[7];
-        return respuestaC;
-    }
-
-
-    private static void InicializarJuego(string[] respuestaC){
-        respuestaC[0]="DUELE";
-        respuestaC[1]="DUELE";
-        respuestaC[2]="SI";
-        respuestaC[3]="SI";
-        respuestaC[4]="DUELE";
-        respuestaC[5]="PRESION";
-        respuestaC[6]="430";
-        respuestaC[6]="SIN";
-    }
-
-
+   static string[] incognitasSalas = new string[8];
     static int estadoJuego=1;
 
-
-    public static int GetEstadoJuego(int estadoJuego){
+    public static void InicializarJuego(){
+        incognitasSalas[0]="DUELE";
+        incognitasSalas[1]="DUELE";
+        incognitasSalas[2]="SI";
+        incognitasSalas[3]="SI";
+        incognitasSalas[4]="DUELE";
+        incognitasSalas[5]="PRESION";
+        incognitasSalas[6]="430";
+        incognitasSalas[7]="SIN";
+    }
+ 
+   public static int GetEstadoJuego(){
+        if (estadoJuego == 1){
+            InicializarJuego();
+        }
         return estadoJuego;
     }
-
-
-    public static bool ResolverSala(string respuesta, string[]respuestaC, int estadoJuego){
-        bool correcto=false;
-        if (respuesta==respuestaC[estadoJuego-1]){
-            correcto=true;
+    public static bool ResolverSala(string respuesta, int sala){
+        
+        if (incognitasSalas[sala-1]!=respuesta) 
+        {
+            return false;
         }
-        return correcto;
+        else
+        {
+            
+            estadoJuego=estadoJuego+1;
+            return true;
+        }
+
     }
    
 }

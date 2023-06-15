@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = tp_5
 build_property.RootNamespace = tp_5
-build_property.ProjectDir = C:\Users\47697893\Documents\tp-5\
+build_property.ProjectDir = C:\Users\47572192\Downloads\tp5\tp-5\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\47697893\Documents\tp-5
+build_property.MSBuildProjectDirectory = C:\Users\47572192\Downloads\tp5\tp-5
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/creditos.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/habitacion1.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/habitacion1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoYWJpdGFjaW9uMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/habitacion2.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/habitacion2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoYWJpdGFjaW9uMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/habitacion3.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/habitacion3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoYWJpdGFjaW9uMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/habitacion4.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/habitacion4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoYWJpdGFjaW9uNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/habitacion5.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/habitacion5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoYWJpdGFjaW9uNS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/habitacion6.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/habitacion6.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoYWJpdGFjaW9uNi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/habitacion7.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/habitacion7.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoYWJpdGFjaW9uNy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/habitacion8.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/habitacion8.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxoYWJpdGFjaW9uOC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/incorrecto.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/incorrecto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmNvcnJlY3RvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/Index.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/tutorial.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/tutorial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0dXRvcmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Home/victoria.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Home/victoria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWN0b3JpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Shared/Error.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/_ViewImports.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/_ViewStart.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/47697893/Documents/tp-5/Views/Shared/_Layout.cshtml]
+[C:/Users/47572192/Downloads/tp5/tp-5/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l5lf5ukdq8

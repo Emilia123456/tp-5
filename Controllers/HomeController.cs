@@ -27,44 +27,17 @@ public class HomeController : Controller
     {
         return View();
     }
-
-    public IActionResult habitacion1()
+public IActionResult comenzar()
     {
-        return View();
+        Escape.InicializarJuego();
+        return View("habitacion" + Escape.GetEstadoJuego());
+
     }
 
-    public IActionResult habitacion2()
+   [HttpPost] public IActionResult habitacion(int codigoSala, string respuesta)
     {
-        return View();
-    }
-
-
-    public IActionResult habitacion3()
-    {
-        return View();
-    }
-    public IActionResult habitacion4()
-    {
-        return View();
-    }
-
-     public IActionResult habitacion5()
-    {
-        return View();
-    }
-
-     public IActionResult habitacion6()
-    {
-        return View();
-    }
-    public IActionResult habitacion7()
-    {
-        return View();
-    }
-
-     public IActionResult habitacion8()
-    {
-        return View();
+        bool correcto = Escape.ResolverSala(respuesta, codigoSala);
+        return View("habitacion" + Escape.GetEstadoJuego());
     }
 
 
