@@ -27,12 +27,13 @@
         </ul>
     </div>
     <div class="contenedor">
-          <form action='@Url.Action("habitacion", "home")' method="post">
+        <form action='@Url.Action("habitacion", "home")' method="post">
             <input type="number" value="5" hidden name="codigoSala">
-            <input type="text" autocomplete="off" class="form-control" placeholder="Respuesta..." name="respuesta">
-            <button class="btn btn-secondary" type="submit">Enviar</button>
+            <input type="text" autocomplete="off" class="form-control" required placeholder="Respuesta..." name="respuesta">
+            <div class="submit">
+                <button class="text-dark" type="submit">ENVIAR</button>
+            </div>
         </form>
-
         <img src="/imagenes/stop_habitacion5.png">
     </div>
     </section>

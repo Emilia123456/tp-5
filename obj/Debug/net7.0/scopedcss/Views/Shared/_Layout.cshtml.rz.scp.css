@@ -12,11 +12,7 @@ a[b-l5lf5ukdq8] {
   color: #0077cc;
 }
 
-.btn-primary[b-l5lf5ukdq8] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
+
 
 .nav-pills .nav-link.active[b-l5lf5ukdq8], .nav-pills .show > .nav-link[b-l5lf5ukdq8] {
   color: #fff;
@@ -35,11 +31,6 @@ a[b-l5lf5ukdq8] {
 .box-shadow[b-l5lf5ukdq8] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
   
-}
-
-button.accept-policy[b-l5lf5ukdq8] {
-  font-size: 1rem;
-  line-height: inherit;
 }
 
 .footer[b-l5lf5ukdq8] {

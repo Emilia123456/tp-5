@@ -68,7 +68,7 @@ footer{
 }
 
 .submit{
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .submit:hover{
@@ -112,4 +112,41 @@ p, a, li{
 h1, h2, a, button{
   font-family: 'Quantico', sans-serif;
   color: #394867;
+}
+
+button{
+  background-color: #9BA4B5;
+}
+
+.navbar a{
+  color: #F1F6F9;
+  margin: 10px;
+}
+
+.navbar, .footer{
+  background-color:#394867;
+  padding: 10px;
+  
+}
+
+.footer a, .footer p{
+  color: #F1F6F9;
+  text-decoration: none;
+  font-family: 'Quantico', sans-serif;
+}
+
+.logo_img{
+  background-color: white;
+  padding: 15px;
+  margin-right: 10px;
+
+}
+
+.boton {
+  font-family: 'Quantico', sans-serif;
+  color: #394867;
+}
+
+.footer-lista{
+  list-style:none
 }

@@ -7,7 +7,7 @@ public static class Escape{
         incognitasSalas[1]="DUELE";
         incognitasSalas[2]="SI";
         incognitasSalas[3]="SI";
-        incognitasSalas[4]="DUELE";
+        incognitasSalas[4]="PERMISO";
         incognitasSalas[5]="PRESION";
         incognitasSalas[6]="430";
         incognitasSalas[7]="SIN";
