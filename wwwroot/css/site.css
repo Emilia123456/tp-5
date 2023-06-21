@@ -157,6 +157,12 @@ button{
   list-style:none
 }
 
+.nav-item p{
+  font-family: 'Quantico', sans-serif;
+  color: #F1F6F9;
+  margin: 17px;
+  margin-left: 1250px;
+}
 
 
 

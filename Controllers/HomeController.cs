@@ -28,37 +28,11 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult pista1()
+    public IActionResult pista()
     {
-        return View();
-    }
-    public IActionResult pista2()
-    {
-        return View();
-    }
-    public IActionResult pista3()
-    {
-        return View();
-    }
-    public IActionResult pista4()
-    {
-        return View();
-    }
-    public IActionResult pista5()
-    {
-        return View();
-    }
-    public IActionResult pista6()
-    {
-        return View();
-    }
-    public IActionResult pista7()
-    {
-        return View();
-    }
-    public IActionResult pista8()
-    {
-        return View();
+        ViewBag.nombres=Escape.nombre;
+        Escape.sumarPista();
+        return View("pista" + Escape.GetEstadoJuego());
     }
      public IActionResult victoria()
     {
@@ -69,25 +43,54 @@ public class HomeController : Controller
         return View();
     }
 
-
-public IActionResult comenzar()
+    public IActionResult nombre()
     {
+        return View();
+    }
+    [HttpPost] public IActionResult nombreX(string nombre)
+    {
+        Escape.EstadoCero();
+        Escape.nombre=nombre;
+        ViewBag.nombres=nombre;
+        return View("habitacion" + Escape.GetEstadoJuego());
+    }
+
+
+public IActionResult comenzarDesdeCero()
+    {
+        Escape.EstadoCero();
         Escape.InicializarJuego();
         return View("habitacion" + Escape.GetEstadoJuego());
 
+    }
+
+public IActionResult comenzar()
+    {
+        ViewBag.nombres=Escape.nombre;
+        Escape.InicializarJuego();
+        return View("habitacion" + Escape.GetEstadoJuego());
     }
 
    [HttpPost] public IActionResult habitacion(int codigoSala, string respuesta)
     {
         
         bool correcto = Escape.ResolverSala(respuesta, codigoSala);
-        if(Escape.sancion>3){
+        if(Escape.GetEstadoJuego()>8){
+            ViewBag.intentos = Escape.intento;
+            ViewBag.creada = Escape.pistas;
+            ViewBag.nombres = Escape.nombre;
             return View("victoria");
         }
         if (correcto==true){
+            ViewBag.nombres = Escape.nombre;
             return View("habitacion" + Escape.GetEstadoJuego());
         }
         else{
+             if(Escape.sancion>3){
+            return View("incorrectoPerma");
+            }
+            ViewBag.nombres=Escape.nombre;
+            Escape.sumarIntentos();
             Escape.sancion = Escape.sumarSancion();
             return View("incorrecto");
         }

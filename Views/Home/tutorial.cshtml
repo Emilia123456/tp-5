@@ -18,10 +18,12 @@
 
         </p>
         <img src="/imagenes/escape_tutorial.png">
-        <div class="submit">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="comenzar">COMENZAR EL JUEGO</a>
+        
+              <form action='@Url.Action("nombre", "home")' method="post">
+                <div class="submit"></div>
+                 <button class="text-dark" type="submit">COMENZAR JUEGO</button>
+              </form>
         </div>
-
     </div>
     </section>
 </body>

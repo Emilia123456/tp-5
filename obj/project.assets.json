@@ -8,25 +8,31 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\miled\\.nuget\\packages\\": {}
+    "C:\\Users\\47572192\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miled\\OneDrive\\Desktop\\ORT\\2023\\Programacion\\tp-5\\tp-5.csproj",
+      "projectUniqueName": "C:\\Users\\47572192\\Desktop\\tp-5\\tp-5\\tp-5.csproj",
       "projectName": "tp-5",
-      "projectPath": "C:\\Users\\miled\\OneDrive\\Desktop\\ORT\\2023\\Programacion\\tp-5\\tp-5.csproj",
-      "packagesPath": "C:\\Users\\miled\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miled\\OneDrive\\Desktop\\ORT\\2023\\Programacion\\tp-5\\obj\\",
+      "projectPath": "C:\\Users\\47572192\\Desktop\\tp-5\\tp-5\\tp-5.csproj",
+      "packagesPath": "C:\\Users\\47572192\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\47572192\\Desktop\\tp-5\\tp-5\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\miled\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\47572192\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -63,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

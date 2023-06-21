@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "nombre";
+}
+
+<body>
+    <section class="tamaño-pagina">
+
+    <div class="text-center">
+        <h1 class="display-4">Ingresá tu nombre</h1>
+    </div>
+    
+ 
+    <div class="contenedor">
+          <form action='@Url.Action("nombreX", "home")' method="post">
+            <input type="text" autocomplete="off" class="form-control" required placeholder="Nombre..." name="nombre">
+            <div class="submit">
+            </form>
+                <button class="text-dark" type="submit">ENVIAR</button>
+            </div>
+            <div class="submit">
+            </div>
+        <img src="/imagenes/dolor_habitacion1.png">
+    </div>
+    </section>
+</body>
