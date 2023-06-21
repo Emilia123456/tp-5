@@ -27,6 +27,49 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public IActionResult pista1()
+    {
+        return View();
+    }
+    public IActionResult pista2()
+    {
+        return View();
+    }
+    public IActionResult pista3()
+    {
+        return View();
+    }
+    public IActionResult pista4()
+    {
+        return View();
+    }
+    public IActionResult pista5()
+    {
+        return View();
+    }
+    public IActionResult pista6()
+    {
+        return View();
+    }
+    public IActionResult pista7()
+    {
+        return View();
+    }
+    public IActionResult pista8()
+    {
+        return View();
+    }
+     public IActionResult victoria()
+    {
+        return View();
+    }
+     public IActionResult noTenemos()
+    {
+        return View();
+    }
+
+
 public IActionResult comenzar()
     {
         Escape.InicializarJuego();
